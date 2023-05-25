@@ -49,6 +49,7 @@ console.log(checker([100, -3000, 8, 5, 23]));
 
 // console.log(checker([22, 50, -1, 4, 20]));
 // знаходження мін та макс числа в масиві
+
 // const getMin = (arr) => {
 //   let min = Infinity;
 

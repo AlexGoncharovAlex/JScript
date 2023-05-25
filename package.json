@@ -180,5 +180,9 @@
   "bugs": {
     "url": "https://github.com/AlexGoncharovAlex/JScript/issues"
   },
-  "homepage": "https://github.com/AlexGoncharovAlex/JScript#readme"
+  "homepage": "https://github.com/AlexGoncharovAlex/JScript#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5"
+  }
 }
