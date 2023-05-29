@@ -1,3 +1,3 @@
-import { sendMessege } from 'index.js';
+import { sendMessage } from './index.js';
 
-sendMessege('Bob');
+sendMessage('Bob');
