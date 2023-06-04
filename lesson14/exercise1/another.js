@@ -1,3 +1,10 @@
-import { sendMessage } from './index.js';
+'use strict';
 
-sendMessage('Bob');
+let message = 'Just learn it';
+export function sendMessage(name) {
+  console.log(`${name}, ${message}! Your Gromcode`);
+}
+
+export function setMessage(text) {
+  message = text;
+}
