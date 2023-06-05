@@ -1,12 +1,16 @@
 /**
  * @return {object}
  */
+let sender = 'Gromcode';
+let message = 'Just learn it';
 export function createMessenger() {
-  function setMessage(message) {}
-  const message = 'Just learn it';
+  function setMessage(message) {
+    message = message;
+  }
 
-  function setSender(sender) {}
-  const sender = 'Gromcode';
+  function setSender(sender) {
+    sender = sender;
+  }
 
   function sendMessage(name) {
     console.log(
@@ -19,4 +23,3 @@ export function createMessenger() {
     setSender,
   };
 }
-const messanger3 = createMessenger();
