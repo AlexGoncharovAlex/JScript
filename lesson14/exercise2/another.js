@@ -1,4 +1,4 @@
-import { createMessenger } from './index.js';
+import createMessenger  from './index.js';
 
 const messanger1 = createMessenger();
 messanger1.sendMessage('Anna'); // ===> Hello, Anna! Just learn it! This message was sent by Gromcod

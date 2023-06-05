@@ -1,17 +1,17 @@
 /**
  * @return {object}
  */
-let sender = 'Gromcode';
-let message = 'Just learn it';
-export function createMessenger() {
-  function setMessage(message) {
-    message = message;
+export default function createMessenger() {
+  function setMessage(messageAbout) {
+    message = messageAbout;
   }
 
-  function setSender(sender) {
-    sender = sender;
+  let sender = 'Gromcode';
+  function setSender(senderName) {
+    sender = senderName;
   }
 
+  let message = 'Just learn it';
   function sendMessage(name) {
     console.log(
       `Hello, ${name}! ${message}! This message was sent by ${sender}`
